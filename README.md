@@ -31,6 +31,11 @@ The idea here is to show how SQL isn't just about syntax—it's about solving re
 Every query is based on a real question you'd hear in an IT team meeting or during an operational review.
 
 ---
+## 📂 Project Files
+
+- [SQL Script: IT_Support_Ticket_Analysis.sql](./IT_Support_Ticket_Analysis.sql)  
+  This file contains all SQL queries used for data analysis, from SLA breaches to ticket volume trends and department-based insights.
+---
 
 ## 🧰 Tools Used
 
