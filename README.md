@@ -1,5 +1,7 @@
 # IT Support Ticket Analysis with SQL
-
+---
+![Project Banner](./banner.png)
+---
 Welcome to my SQL project focused on analyzing support ticket data from an IT department. This project explores how structured queries and data interpretation can help solve real-world challenges faced by support teams—from missed SLA deadlines to tracking technician performance.
 
 ---
@@ -62,12 +64,6 @@ This dataset includes over **10,000 support tickets** and covers fields like:
 - **March 2025** saw a spike in support tickets.
 
 These findings are based purely on SQL queries—no external tools used for analytics.
-
----
-
-## 👀 Preview
-
-![Project Banner](./banner.png)
 
 ---
 
