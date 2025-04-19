@@ -121,14 +121,14 @@ The full dashboard is available in `.pbix` format:
 
 Screenshots below:
 
-![Dashboard Visual](assets/Ticket Volume by Department.jpg)  
-![Dashboard Visual](assets/Ticket Status Distribution.jpg)
-![Dashboard Visual](assets/Tickets Resolved by Technicians.jpg)
-![Dashboard Visual](assets/SLA Breaches by Department.jpg)
-![Dashboard Visual](assets/Monthly Trend of IT Support Tickets.png)
-![Dashboard Visual](assets/Feedback Rating Breakdown.jpg)
-![Dashboard Visual](assets/Breakdown of Support Tickets by Issue Type.jpg)
-![Dashboard Visual](assets/Average Resolution Time by Ticket Priority.jpg)
+![Dashboard Visual](assets/Average_Resolution_Time_by_Ticket_Priority.jpg)
+![Dashboard Visual](assets/Breakdown_of_Support_Tickets_by_Issue_Type.jpg)
+![Dashboard Visual](assets/Feedback_Rating_Breakdown.jpg)
+![Dashboard Visual](assets/Monthly_Trend_of_IT_Support_Tickets.png)
+![Dashboard Visual](assets/SLA_Breaches_by_Department.jpg)
+![Dashboard Visual](assets/Ticket_Volume_by_Department.jpg)
+![Dashboard Visual](assets/Ticket_Status_Distribution.jpg)
+![Dashboard Visual](assets/Tickets_Resolved_by_Technicians.jpg)
 
 ---
 
@@ -138,14 +138,14 @@ Here's how this project is structured:
 
 / ├── assets/ → Visual assets used in README and dashboard
 │ ├── banner.png → Project banner image
-│ ├── Average Resolution Time by Ticket Priority.jpg
-│ ├── Breakdown of Support Tickets by Issue Type.jpg
-│ ├── Feedback Rating Breakdown.jpg
-│ ├── Monthly Trend of IT Support Tickets.png
-│ ├── SLA Breaches by Department.jpg
-│ ├── Ticket Status Distribution.jpg
-│ ├── Ticket Volume by Department.jpg
-│ ├── Tickets Resolved by Technicians.jpg
+│ ├── Average_Resolution_Time_by_Ticket_Priority.jpg
+│ ├──Breakdown_of_Support_Tickets_by_Issue_Type.jpg
+│ ├──Feedback_Rating_Breakdown.jpg
+│ ├──Monthly_Trend_of_IT_Support_Tickets.png
+│ ├──SLA_Breaches_by_Department.jpg
+│ ├──Ticket_Status_Distribution.jpg
+│ ├──Ticket_Volume_by_Department.jpg
+│ ├──Tickets_Resolved_by_Technicians.jpg
 │ └── .gitkeep → Keeps the folder in version control if empty
 │ ├── data/ → Final cleaned dataset
 │ ├── IT_Support_Ticket_Analysis_Data.xlsx → Master Excel file with multiple sheets
