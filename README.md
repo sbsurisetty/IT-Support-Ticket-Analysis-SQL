@@ -1,8 +1,12 @@
-# IT Support Ticket Analysis with SQL
+# IT Support Ticket Analysis Dashboard
+
+![Banner](assets/IT_Support_Ticket_Banner.png)
+
+A deep-dive data analysis project focused on IT support ticket performance across multiple departments. This project was built to explore trends, efficiency, workload distribution, and service quality using SQL and Power BI.
 ---
-![Project Banner](./banner.png)
----
-Welcome to my SQL project focused on analyzing support ticket data from an IT department. This project explores how structured queries and data interpretation can help solve real-world challenges faced by support teams—from missed SLA deadlines to tracking technician performance.
+## Overview
+
+Welcome to my SQL project focused on analyzing support ticket data from an IT department. This project simulates a real-world IT service desk environment. With thousands of tickets logged over a year, the dataset was cleaned, analyzed using SQL, and visualized in Power BI. The final output delivers clear insights for decision-makers on how support operations are performing.
 
 ---
 
@@ -20,6 +24,15 @@ The idea here is to show how SQL isn't just about syntax—it's about solving re
 
 ---
 
+## Project Goals
+- Track monthly ticket volume trends
+- Identify which departments raise the most tickets
+- Analyze SLA breaches and performance
+- Measure feedback ratings and tech efficiency
+- Deliver actionable insights through visual dashboards
+
+---
+
 ## 💡 What You'll Find Inside
 
 - ✅ Clean, structured SQL queries
@@ -31,17 +44,12 @@ The idea here is to show how SQL isn't just about syntax—it's about solving re
 Every query is based on a real question you'd hear in an IT team meeting or during an operational review.
 
 ---
-## 📂 Project Files
 
-- [SQL Script: IT_Support_Ticket_Analysis.sql](./IT_Support_Ticket_Analysis.sql)  
-  This file contains all SQL queries used for data analysis, from SLA breaches to ticket volume trends and department-based insights.
----
-
-## 🧰 Tools Used
-
-- **MySQL Workbench** – for writing and testing queries  
-- **GitHub** – to keep everything version-controlled and organized  
-- **Canva** – for the project banner  
+## 🧰 Tools & Tech Stack
+- **MySQL Workbench** – SQL data queries and transformations  
+- **Power BI** – Interactive dashboard visualizations  
+- **Excel** – Data formatting & exporting  
+- **GitHub** – Version control and documentation  
 
 ---
 
@@ -58,17 +66,26 @@ This dataset includes over **10,000 support tickets** and covers fields like:
 - SLA Breach Flags  
 - Feedback Ratings  
 
+> **Data Source**: Synthesized IT support ticket logs  
+> **Total Records**: 13 months of support ticket data  
+> **File Format**: `.xlsx` with multiple sheets
+
 ---
 
-## 📊 A Few Key Insights
+## SQL Insights
 
-- The **IT department** logged the highest number of tickets (unsurprisingly).
-- **Bob** and **Frank** consistently resolved the most tickets.
-- The **Finance department** topped the SLA breach list.
-- **Critical priority** issues took slightly longer to resolve than low-priority ones.
-- **March 2025** saw a spike in support tickets.
+We performed SQL queries to gather the following insights:
 
-These findings are based purely on SQL queries—no external tools used for analytics.
+| Insight | Description |
+|--------|-------------|
+| **Tickets by Department** | IT logged the highest number of support tickets |
+| **Resolution Times** | Critical and High priority tickets took longer to resolve |
+| **SLA Breaches** | Finance had the highest number of SLA breaches |
+| **Top Technicians** | Bob and Frank resolved the most tickets |
+| **Monthly Trends** | March 2025 saw the highest volume of tickets |
+| **Feedback Ratings** | Consistent ratings with no major outliers |
+
+> View all queries in: [`/SQL/Insights.sql`](SQL/Insights.sql)
 
 ---
 
@@ -88,3 +105,68 @@ If you're into data analysis, tech ops, or just curious about SQL:
 🔗 [[LinkedIn](#)  ](https://www.linkedin.com/in/srinivasbharathsurisetty/)
 📫 Feel free to drop me a message!
 
+---
+
+## Power BI Dashboard
+
+The full dashboard is available in `.pbix` format:  
+**[Download Dashboard](Dashboard/IT_Support_Ticket_Analysis_Data.pbix)**
+
+> **Key Dashboards:**
+- Ticket Volume by Month
+- SLA Breaches by Department
+- Technician Performance
+- Feedback Distribution
+- Issue Type Breakdown
+
+Screenshots below:
+
+![Dashboard Visual](assets/Ticket Volume by Department.jpg)  
+![Dashboard Visual](assets/Ticket Status Distribution.jpg)
+![Dashboard Visual](assets/Tickets Resolved by Technicians.jpg)
+![Dashboard Visual](assets/SLA Breaches by Department.jpg)
+![Dashboard Visual](assets/Monthly Trend of IT Support Tickets.png)
+![Dashboard Visual](assets/Feedback Rating Breakdown.jpg)
+![Dashboard Visual](assets/Breakdown of Support Tickets by Issue Type.jpg)
+![Dashboard Visual](assets/Average Resolution Time by Ticket Priority.jpg)
+
+---
+
+## 📁 Folder Structure
+
+Here's how this project is structured:
+
+/ ├── assets/ → Visual assets used in README and dashboard
+│ ├── banner.png → Project banner image
+│ ├── Average Resolution Time by Ticket Priority.jpg
+│ ├── Breakdown of Support Tickets by Issue Type.jpg
+│ ├── Feedback Rating Breakdown.jpg
+│ ├── Monthly Trend of IT Support Tickets.png
+│ ├── SLA Breaches by Department.jpg
+│ ├── Ticket Status Distribution.jpg
+│ ├── Ticket Volume by Department.jpg
+│ ├── Tickets Resolved by Technicians.jpg
+│ └── .gitkeep → Keeps the folder in version control if empty
+│ ├── data/ → Final cleaned dataset
+│ ├── IT_Support_Ticket_Analysis_Data.xlsx → Master Excel file with multiple sheets
+│ └── .gitkeep → Keeps the folder in version control if empty
+│ ├── visuals/ → Power BI visuals & report file
+│ ├── IT Support Ticket Analysis Data.pbix → Power BI project file
+│ └── .gitkeep → Keeps the folder in version control if empty
+│ ├── IT_Support_Ticket_Analysis.sql → SQL file with all transformation & insights queries
+├── README.md → Project documentation you're reading now
+
+---
+
+## How to Use
+
+1. Clone the repo  
+2. Open SQL scripts in MySQL Workbench  
+3. Explore `.pbix` in Power BI Desktop  
+4. Use visuals or modify as per your project goals
+
+---
+
+## Author
+
+Created with detail and precision by Srinivas Bharath Surisetty — blending SQL insights with visual storytelling.
