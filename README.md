@@ -136,27 +136,31 @@ Screenshots below:
 
 Here's how this project is structured:
 
-/ ├── assets/ → Visual assets used in README and dashboard
-│ ├── banner.png → Project banner image
-│ ├── Average_Resolution_Time_by_Ticket_Priority.jpg
-│ ├──Breakdown_of_Support_Tickets_by_Issue_Type.jpg
-│ ├──Feedback_Rating_Breakdown.jpg
-│ ├──Monthly_Trend_of_IT_Support_Tickets.png
-│ ├──SLA_Breaches_by_Department.jpg
-│ ├──Ticket_Status_Distribution.jpg
-│ ├──Ticket_Volume_by_Department.jpg
-│ ├──Tickets_Resolved_by_Technicians.jpg
-│ └── .gitkeep → Keeps the folder in version control if empty
-│ ├── data/ → Final cleaned dataset
-│ ├── IT_Support_Ticket_Analysis_Data.xlsx → Master Excel file with multiple sheets
-│ └── .gitkeep → Keeps the folder in version control if empty
-│ ├── visuals/ → Power BI visuals & report file
-│ ├── IT Support Ticket Analysis Data.pbix → Power BI project file
-│ └── .gitkeep → Keeps the folder in version control if empty
-│ ├── IT_Support_Ticket_Analysis.sql → SQL file with all transformation & insights queries
-├── README.md → Project documentation you're reading now
-
----
+```
+/  → Root of the repository
+├── assets/                       → Visual assets used in README and dashboard
+│   ├── banner.png
+│   ├── Average_Resolution_Time_by_Ticket_Priority.jpg
+│   ├── Breakdown_of_Support_Tickets_by_Issue_Type.jpg
+│   ├── Feedback_Rating_Breakdown.jpg
+│   ├── Monthly_Trend_of_IT_Support_Tickets.png
+│   ├── SLA_Breaches_by_Department.jpg
+│   ├── Ticket_Status_Distribution.jpg
+│   ├── Ticket_Volume_by_Department.jpg
+│   ├── Tickets_Resolved_by_Technicians.jpg
+│   └── .gitkeep                 → Keeps the folder tracked by Git if empty
+│
+├── data/                         → Final cleaned dataset
+│   ├── IT_Support_Ticket_Analysis_Data.xlsx
+│   └── .gitkeep
+│
+├── visuals/                      → Power BI report and related visualizations
+│   ├── IT Support Ticket Analysis Data.pbix
+│   └── .gitkeep
+│
+├── IT_Support_Ticket_Analysis.sql → SQL queries used for transformation & insights
+├── README.md                     → This documentation file
+```
 
 ## How to Use
 
