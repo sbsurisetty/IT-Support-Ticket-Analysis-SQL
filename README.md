@@ -1,6 +1,6 @@
 # IT Support Ticket Analysis Dashboard
 
-![Banner](assets/IT_Support_Ticket_Banner.png)
+![Banner](assets/banner.png)
 
 A deep-dive data analysis project focused on IT support ticket performance across multiple departments. This project was built to explore trends, efficiency, workload distribution, and service quality using SQL and Power BI.
 ---
